@@ -361,7 +361,7 @@ export default function MainTab() {
             Probability Weights
           </Text>
 
-          <Text>Expertise Weight</Text>
+          <Text>Team Expertise Weight</Text>
           <TextInput
             value={probExpertiseWeight}
             onChangeText={setProbExpertiseWeight}
@@ -377,7 +377,7 @@ export default function MainTab() {
             style={{ borderWidth: 1, padding: 10, borderRadius: 8 }}
           />
 
-          <Text>Clarity Weight</Text>
+          <Text> Requirement Clarity Weight</Text>
           <TextInput
             value={probClarityWeight}
             onChangeText={setProbClarityWeight}
@@ -385,7 +385,7 @@ export default function MainTab() {
             style={{ borderWidth: 1, padding: 10, borderRadius: 8 }}
           />
 
-          <Text>Dependency Weight</Text>
+          <Text>External Dependency Weight</Text>
           <TextInput
             value={probDependencyWeight}
             onChangeText={setProbDependencyWeight}
@@ -393,7 +393,7 @@ export default function MainTab() {
             style={{ borderWidth: 1, padding: 10, borderRadius: 8 }}
           />
 
-          <Text>Complexity Weight</Text>
+          <Text> Project Complexity Weight</Text>
           <TextInput
             value={probComplexityWeight}
             onChangeText={setProbComplexityWeight}
@@ -413,7 +413,7 @@ export default function MainTab() {
             style={{ borderWidth: 1, padding: 10, borderRadius: 8 }}
           />
 
-          <Text>Complexity Weight</Text>
+          <Text>Project Complexity Weight</Text>
           <TextInput
             value={impactComplexityWeight}
             onChangeText={setImpactComplexityWeight}
@@ -421,7 +421,7 @@ export default function MainTab() {
             style={{ borderWidth: 1, padding: 10, borderRadius: 8 }}
           />
 
-          <Text>Clarity Weight</Text>
+          <Text>Requirement Clarity Weight</Text>
           <TextInput
             value={impactClarityWeight}
             onChangeText={setImpactClarityWeight}
@@ -429,7 +429,7 @@ export default function MainTab() {
             style={{ borderWidth: 1, padding: 10, borderRadius: 8 }}
           />
 
-          <Text>Dependency Weight</Text>
+          <Text>External Dependency Weight</Text>
           <TextInput
             value={impactDependencyWeight}
             onChangeText={setImpactDependencyWeight}
