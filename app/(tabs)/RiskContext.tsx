@@ -51,6 +51,22 @@ export type RiskInputs = {
   dependency: number;
   expertise: number;
   days_to_deadline: number;
+  weights: {
+    probability: {
+      expertise: number | null;
+      schedule_pressure: number | null;
+      clarity: number | null;
+      dependency: number | null;
+      complexity: number | null;
+    };
+    impact: {
+      budget: number | null;
+      complexity: number | null;
+      clarity: number | null;
+      dependency: number | null;
+      schedule_impact: number | null;
+    };
+  };
 };
 
 export type ExportItem = {
